@@ -37,7 +37,7 @@ public class Forgot2 extends HttpServlet {
 	if(string.equals(string1)) {
 		
 		if(new UserServer_Request().find(keys).trim().length()<=0) {
-		url="confirm.jsp";
+		
 		
 	    Group_check(request, "Go to Home Page",
 	    		"Link Has Expired ! ", 
